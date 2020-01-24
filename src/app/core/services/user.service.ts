@@ -7,7 +7,7 @@ import User from '../models/User';
   providedIn: 'root',
 })
 
-export class UserService {
+export default class UserService {
   static getUsers(): Observable<User[]> {
     return of(users);
   }
