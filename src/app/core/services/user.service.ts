@@ -8,7 +8,7 @@ import User from '../models/User';
 })
 
 export default class UserService {
-  static getUsers(): Observable<User[]> {
+  getUsers(): Observable<User[]> {
     return of(users);
   }
 }

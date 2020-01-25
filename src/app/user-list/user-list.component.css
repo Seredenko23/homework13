@@ -1,0 +1,31 @@
+.user-list-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 1.5em;
+  max-width: 230px;
+  padding: 5px;
+  list-style-type: none;
+  margin: 3px 0;
+}
+
+.selected {
+  background-color: lime;
+  transition: .2s ease;
+}
+
+.selected-user {
+  margin: 0 15px;
+}
+
+.selected-user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.5em;
+}

@@ -1,3 +1,22 @@
-<p>
-  user-list works!
-</p>
+<div class="user-list-wrapper">
+  <ul class='user-list'>
+    <li class ='user'
+        *ngFor="let user of users"
+        [class.selected]="selectedUser === user"
+        (click) = 'selectUser(user)'
+    >
+      {{user.first_name + ' ' + user.last_name}}
+    </li>
+  </ul>
+
+  <div class="selected-user" *ngIf="selectedUser">
+    <h1 class="selected-user-name">
+      {{selectedUser.first_name + ' ' + selectedUser.last_name}}
+    </h1>
+    <div class="selected-user-info">
+      <span>Email: {{selectedUser.email}}</span>
+      <span>Gender: {{selectedUser.gender}}</span>
+    </div>
+  </div>
+</div>
+

@@ -5,7 +5,7 @@ export const users: User[] = [
   {id: 2, first_name: 'Osbourn', last_name: 'Sebley', email: 'osebley1@360.cn', gender: 'Male'},
   {id: 3, first_name: 'Micky', last_name: 'Trett', email: 'mtrett2@abc.net.au', gender: 'Male'},
   {id: 4, first_name: 'Andrus', last_name: 'Hourican', email: 'ahourican3@soup.io', gender: 'Male'},
-  {id: 5, first_name: 'Adorne', last_name: 'Lade', email: 'alade4@github.io', gender: 'Female'},
+  {id: 5, first_name: 'Adolf', last_name: 'Lade', email: 'alade4@github.io', gender: 'Female'},
   {id: 6, first_name: 'Kynthia', last_name: 'Hucks', email: 'khucks5@usnews.com', gender: 'Female'},
   {id: 7, first_name: 'Nickolaus', last_name: 'Darrell', email: 'ndarrell6@github.io', gender: 'Male'},
   {id: 8, first_name: 'Fletcher', last_name: 'Brierley', email: 'fbrierley7@over-blog.com', gender: 'Male'},
